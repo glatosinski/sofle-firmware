@@ -44,8 +44,6 @@
 &kp LSHFT &kp Z  &kp X    &kp C    &kp V     &kp B      &kp DEL    &kp BSPC   &kp N  &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
                  &kp LCTRL &kp RALT &kp LGUI &mo LOWER  &kp SPACE  &kp RET    &mo RAISE  &kp RGUI &kp RALT  &kp RCTRL
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         lower_layer {
@@ -64,8 +62,6 @@
 &trans    &kp EQUAL &kp MINUS &kp KP_PLUS &kp LBRC  &kp RBRC   &trans &trans  &kp LBKT  &kp RBKT &kp SEMI        &kp COLON &kp BSLH  &kp F12
                     &trans    &trans      &trans    &trans     &trans &trans  &trans    &trans   &trans          &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         raise_layer {
